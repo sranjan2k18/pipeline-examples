@@ -32,3 +32,4 @@ This is a collection of tips, advice, gotchas and other best practices for using
  * NOTE: this isn't possible with Multibranch pipelines, since those *have* to pull their script from SCM completely, so you will probably want to do your initial development iteration on a single branch using this approach before moving to `Jenkinsfile`s.
 
  testing
+ new line added
