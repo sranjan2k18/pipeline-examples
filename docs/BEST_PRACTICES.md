@@ -33,6 +33,9 @@ This is a collection of tips, advice, gotchas and other best practices for using
 
 git add filename
 git status
+<<<<<<< HEAD
+=======
 git commit -m "working on git"
+>>>>>>> 85b2c95b042e009d06ada8d4df3e1ecda6fc59e6
 git status
 git push
