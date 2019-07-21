@@ -7,4 +7,15 @@ node {
     withSonarQubeEnv {
         sh "./gradlew clean sonarqube"
     }
-}    
+} 
+-------------------------------------------------
+
+demo1
+
+
+
+
+
+
+
+
