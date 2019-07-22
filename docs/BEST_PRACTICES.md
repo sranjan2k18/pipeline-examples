@@ -30,12 +30,12 @@ This is a collection of tips, advice, gotchas and other best practices for using
 # Scripted Pipeline development tips
 * When developing new flows, you can often iterate faster with an inline pipeline, rather than running from SCM. You can use the 'load' operation to load common utility methods from common pipelines, and then as you finish out methods, commit them to the utility flows.  This lets you strike a balance between having traceability on commits and being able to move fast.
  * NOTE: this isn't possible with Multibranch pipelines, since those *have* to pull their script from SCM completely, so you will probably want to do your initial development iteration on a single branch using this approach before moving to `Jenkinsfile`s.
-
+=================================================================================================================================================================================================================
 git add filename
 git status
 <<<<<<< HEAD
 =======
 git commit -m "working on git"
->>>>>>> 85b2c95b042e009d06ada8d4df3e1ecda6fc59e6
+
 git status
 git push
