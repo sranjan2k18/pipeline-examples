@@ -39,4 +39,5 @@ git commit -m "working on git"
 123456789
 git status
 merge
+merge2
 git push
